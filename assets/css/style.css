@@ -39,18 +39,21 @@ header a{
 header nav {
     margin: 15px 0;
 }
-header nav ul {
+header nav ul, .content ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
 }
-header nav ul li a {
+header nav ul li a, .content ul li {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.50vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content ul li {
+    font-size: 2.5vw;
 }
 /*Hero style */
 .hero {
