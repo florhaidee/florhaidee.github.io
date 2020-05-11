@@ -107,7 +107,7 @@ header nav ul li a {
     justify-content: space-between;
 }
 .subtitle {
-    display: inline;
+    display: flex;
     border-right: 3px solid;
     width: 35%;
     margin: 0 10%;
@@ -116,7 +116,62 @@ header nav ul li a {
     font-size: 45px;
 }
 .content{
-    display: inline;
+    display: flex;
     justify-content: left;
     width: 65%;
+    position: relative;
 }
+/* My work style */
+.grid-wrapper {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+.grid-container {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /*position: relative;*/
+}
+.grid-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: aquamarine;
+}
+.grid-item a{
+    text-decoration: none;
+}
+.text-block{
+    display: flex;
+    flex-direction: column; 
+}
+.text-block span{
+    margin-top: auto;
+    width: 100%;
+    background-color: #A8ADBA;
+    color: #393B4F;
+    padding: 10px 5px;
+    text-align: center;
+}
+.item-2 img, .item-3 img, .item-4 img {
+    justify-items: center;
+    background-size: cover;
+    width: 100px;
+}
+.item-1{
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+}
+.item-1 img{
+    width: 250px;
+    justify-items: center;
+    background-size: contain;
+}
+
+
