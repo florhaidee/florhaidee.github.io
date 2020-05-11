@@ -106,4 +106,17 @@ header nav ul li a {
     padding: 15px;    
     justify-content: space-between;
 }
-
+.subtitle {
+    display: inline;
+    border-right: 3px solid;
+    width: 35%;
+    margin: 0 10%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 45px;
+}
+.content{
+    display: inline;
+    justify-content: left;
+    width: 65%;
+}
