@@ -3,33 +3,24 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>florhaidee</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>florhaidee</title>
     </head>
     <body>
         <!-- navigation-->
         <header>
-            <h1>
-                <a href="index.html">Florhaidee</a>
-            </h1> 
             <nav>
-                <!--Unordered list element-->
-                <ul>
-                    <!--list item element-->
-                    <li>
-                        <!--Anchor element-->
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">My Resume</a>
-                    </li>
-                </ul>
+                <div class= "nav-wrapper  teal darken-2 z-depth-4">
+                    <a class="brand-logo" href="#">Florhaidee</a>
+                    <!--Unordered list element-->
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li> <a href="#about-me">About Me</a> </li>
+                        <li> <a href="#work">My Work</a> </li>
+                        <li> <a href="#contact">Contact Me</a> </li>
+                        <li> <a href="#resume">My Resume</a> </li>
+                    </ul>
+                </div>
             </nav> 
         </header>
         <!-- Hero Section-->
@@ -119,5 +110,7 @@
         <!-- Resume Section-->
         <section id="resume">
         </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>
