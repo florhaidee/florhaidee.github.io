@@ -2,6 +2,7 @@
     --primary-color: #008080;
     --secondary-color: #c7e9ec;
     --tertiary-color: white;
+    /*teal lighten-5* -- teal darken-2 */
 }    
 * {
     margin: 0;
@@ -11,46 +12,14 @@
 body {
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    margin: 0.9rem;
 }
-/*Header Style*/
-header{
-    /*padding: 15px 20px;*/
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+/* Header Style */
+header li a {
+    font-size: 1.70vw;
 }
-header h1 {
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0;
-    color: var(--tertiary-color);
-}
-header h1::first-letter {
-    font-weight: bold;
-    font-size: 40px;
-    font-family: serif;
-    color: var(--secondary-color);
-}
-header a{
-    text-decoration: none;
-    color: var(--tertiary-color);
-}
-header nav {
-    margin: 15px 0;
-}
-header nav ul, .content ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-header nav ul li a, .content ul li {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.50vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+nav .brand-logo{
+    padding-left: 0.5rem;
 }
 .content ul li {
     font-size: 2.5vw;
@@ -69,39 +38,13 @@ header nav ul li a, .content ul li {
     display: flex;
     padding: 15px;
     align-items: flex-end;
-    position: relative;
-    overflow: hidden; 
-    justify-content: space-between;
 }
-.hero-animation::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(183, 209, 216, 0.1), rgba(199, 233, 236, 1));
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 0.5;
-}
-.hero:hover  .hero-animation::after{
-    opacity: 1;
-}
-.hero-animation img {
-    background-size: cover;
-    width: 150px;
-    height: 200px;
+.hero-img {
+    width: 7rem;
+    height: 11rem;
+    margin-right: 1rem;
     border-radius: 15%;
     border: 5px solid rgba(88, 152, 170, 0.1);
-}
-.hero-animation h2{
-    position: relative;
-    z-index: 999;
-    font-size: 28px;
-    margin-bottom: 5px;
-    transition: 0.6;
-    color:var(--primary-color);
-    align-content: flex-end;
 }
 /* About me Style */
 #about-me, #work, #contact {
@@ -114,17 +57,23 @@ header nav ul li a, .content ul li {
     border-right: 3px solid;
     width: 35%;
     margin: 0 10%;
-    text-align: right;
     padding-right: 10px;
     font-size: 45px;
 }
 .content{
-    display: flex;
-    justify-content: left;
     width: 65%;
-    position: relative;
+    text-align: justify;
 }
+
 /* My work style */
+.content img {
+    height: 15rem;
+    background-size: cover;
+}
+.carousel-item.active {
+    transform: translateY(10px);
+}
+/*
 .grid-wrapper {
     display: flex;
     width: 65%;
@@ -135,7 +84,6 @@ header nav ul li a, .content ul li {
     width: 80%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /*position: relative;*/
 }
 .grid-item {
     display: flex;
@@ -176,5 +124,5 @@ header nav ul li a, .content ul li {
     justify-items: center;
     background-size: contain;
 }
-
+*/
 
