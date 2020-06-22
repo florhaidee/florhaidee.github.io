@@ -49,7 +49,8 @@ nav .brand-logo{
 /* About me Style */
 #about-me, #work, #contact {
     display: flex;
-    padding: 15px;    
+    padding: 10px;    
+    font-size: medium;
     justify-content: space-between;
 }
 .subtitle {
@@ -64,6 +65,10 @@ nav .brand-logo{
     width: 65%;
     text-align: justify;
     justify-content: space-around;
+}
+.content span{
+    font-weight: bold;
+    color: teal;
 }
 /* My work style */
 .content img {
