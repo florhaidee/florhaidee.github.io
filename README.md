@@ -11,7 +11,8 @@
 
 ## Technologies
 * Html 
-* CSS
+* MaterializeCSS
+* JQuery
 * GitHub Pages
 
 ## Setup
