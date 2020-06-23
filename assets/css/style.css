@@ -49,8 +49,7 @@ nav .brand-logo{
 #about-me, #work, #contact {
     display: flex;
     padding: 10px;    
-    font-size: large;
-    /*justify-content: space-between;*/
+    font-size: 1.3rem;
 }
 .subtitle {
     display: flex;
