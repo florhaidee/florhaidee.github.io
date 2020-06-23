@@ -46,18 +46,16 @@ nav .brand-logo{
     border-radius: 15%;
     border: 5px solid rgba(88, 152, 170, 0.1);
 }
-/* About me Style */
 #about-me, #work, #contact {
     display: flex;
     padding: 10px;    
     font-size: medium;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 .subtitle {
     display: flex;
     border-right: 3px solid;
     width: 35%;
-    margin: 0 10%;
     padding-right: 10px;
     font-size: 45px;
 }
@@ -65,7 +63,9 @@ nav .brand-logo{
     width: 65%;
     text-align: justify;
     justify-content: space-around;
+    margin: 0 10%;
 }
+/* About me Style */
 .content span{
     font-weight: bold;
     color: teal;
