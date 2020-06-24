@@ -11,95 +11,101 @@
         <!-- navigation-->
         <header>
             <nav>
-                <div class= "nav-wrapper  teal darken-2 z-depth-4">
-                    <a class="brand-logo" href="#">Florhaidee</a>
-                    <!--Unordered list element-->
-                    <ul id="nav-mobile" class="right hide-on-small-only">
-                        <li> <a href="#about-me">About Me</a> </li>
-                        <li> <a href="#work">My Work</a> </li>
-                        <li> <a href="#contact">Contact Me</a> </li>
-                        <li> <a href="#resume">My Resume</a> </li>
-                    </ul>
+                <div class= "nav-wrapper  row teal darken-2 z-depth-4">
+                    <div class="col s12">
+                        <a class="brand-logo" href="#">Florhaidee</a>
+                    </div>
+                    <div class="col s12">
+                        <ul id="nav-mobile" class="right">
+                            <li> <a href="#about-me">About Me</a> </li>
+                            <li> <a href="#work">My Work</a> </li>
+                            <li> <a href="#contact">Contact Me</a> </li>
+                            <li> <a class="modal-trigger" href="#modal-print">My Resume</a> </li>
+                        </ul>
+                    </div>
                 </div>
             </nav> 
         </header>
-        <!-- Hero Section-->
-        <section class="hero">
-            <div class="hero-animation">
-                <img src="assets/images/me.jpg" alt="profile photo" class="hero-img cyan pulse"/>
-                <h4> Soon to be Full Stack Web Developer, check out my latest works!</h4>
-            </div>
-        </section>
-        <!-- About me section-->
-        <section id="about-me" class="About hoverable">
-            <div class="subtitle">
-                <h2>About me</h2>
-            </div>
-            <div class="content">
-                <p>
-                    Hi! Welcome to my page! </br>
-                    I'm Florhaidee Guerra, you can call me Flora, a soon to be Full Stack Web Developer. I have a Bachelors degree in Computer Engineering, graduated from UNEG (Venezuela). Always loving to learns new things and expand my skills. Right now I'm enrolled in the University of Utah's Coding Boot Camp to update my web developers skills. It's being more than three years since I'm not developing, because I was doing other of my favorite things being a Mom of two beautiful girls.  
-                </br>
-                    I have experience with <span class='teal-text text-darken-2'> HTML, CSS, JavaScript, JQuery </span> and I'll learning new skills every week. Some of my hobbies include reading books and playing with my little girls. I'm always looking to improve myself and challenge me. Next you can see some of my latest projects.
-                </p>
-            </div>
-        </section>
-        <!-- Work Section-->
-        <section id="work" class='hoverable'>
-            <div class="subtitle">
-                <h2>My Work</h2>
-            </div>
-            <div class="content carousel">
-                <div class="carousel-item" style="transform: translateY(10px);">
-                    <a href="https://florhaidee.github.io/just-breathe/" target="_blank">   
-                    <h6>Just Breathe</h6>
-                    <img src="./assets/images/just-breathe.JPG" alt="Just Breathe web page" class="responsive-img"/></a>
-                    <span><a href="https://github.com/florhaidee/just-breathe" target="_blank">Github Repository</a></span>
+        <main>
+            <!-- Hero Section-->
+            <section class="hero">
+                <div class="hero-animation">
+                    <img src="assets/images/me.jpg" alt="profile photo" class="hero-img cyan pulse"/>
+                    <h4> Soon to be Full Stack Web Developer, check out my latest works!</h4>
                 </div>
-                <div class="carousel-item">
-                    <a href="https://florhaidee.github.io/run-buddy/" target="_blank">   
-                    <h6>Run buddy</h6>
-                    <img src="./assets/images/run-buddy.png" alt="Run-buddy web page" class="responsive-img"/></a>
-                    <span><a href="https://github.com/florhaidee/run-buddy" target="_blank">Github Repository</a></span>
+            </section>
+            <!-- About me section-->
+            <section id="about-me" class="About hoverable">
+                <div class="subtitle hide-on-small-only">
+                    <h2>About me</h2>
                 </div>
-                <div class="carousel-item">
-                    <a href="https://florhaidee.github.io/weather-dashboard/" target="_blank">   
-                    <h6>Weather Dashboard</h6>
-                    <img src="./assets/images/weather-dashboard.png" alt="Weather dashboard web page" class="responsive-img"/></a>
-                    <span><a href="https://github.com/florhaidee/weather-dashboard" target="_blank">Github Repository</a></span>
+                <div class="content">
+                    <p>
+                        Hi! Welcome to my page! </br>
+                        I'm Florhaidee Guerra, you can call me Flora, a soon to be Full Stack Web Developer. I have a Bachelors degree in Computer Engineering, graduated from UNEG (Venezuela). Always loving to learns new things and expand my skills. Right now I'm enrolled in the University of Utah's Coding Boot Camp to update my web developers skills. It's being more than three years since I'm not developing, because I was doing other of my favorite things being a Mom of two beautiful girls.  
+                    </br>
+                        I have experience with <span class='teal-text text-darken-2'> HTML, CSS, JavaScript, JQuery </span> and I'll learning new skills every week. Some of my hobbies include reading books and playing with my little girls. I'm always looking to improve myself and challenge me. Next you can see some of my latest projects.
+                    </p>
                 </div>
-                <div class="carousel-item"> 
-                    <a href="https://florhaidee.github.io/work-day-scheduler/" target="_blank">   
-                    <h6>Work Day Scheduler</h6>
-                    <img src="./assets/images/work-day-scheduler.PNG" alt="Work day scheduler web page" class="responsive-img"/></a>
-                    <span><a href="https://github.com/florhaidee/work-day-scheduler" target="_blank">Github Repository</a></span>
-                </div>                    
-            </div>
-        </section>
+            </section>
+            <!-- Work Section-->
+            <section id="work" class='hoverable'>
+                <div class="subtitle hide-on-small-only">
+                    <h2>My Work</h2>
+                </div>
+                <div class="content carousel">
+                    <div class="carousel-item" style="transform: translateY(10px);">
+                        <a href="https://florhaidee.github.io/just-breathe/" target="_blank">   
+                        <h6>Just Breathe</h6>
+                        <img src="./assets/images/just-breathe.JPG" alt="Just Breathe web page" class="responsive-img"/></a>
+                        <span><a href="https://github.com/florhaidee/just-breathe" target="_blank">Github Repository</a></span>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://florhaidee.github.io/run-buddy/" target="_blank">   
+                        <h6>Run buddy</h6>
+                        <img src="./assets/images/run-buddy.png" alt="Run-buddy web page" class="responsive-img"/></a>
+                        <span><a href="https://github.com/florhaidee/run-buddy" target="_blank">Github Repository</a></span>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://florhaidee.github.io/weather-dashboard/" target="_blank">   
+                        <h6>Weather Dashboard</h6>
+                        <img src="./assets/images/weather-dashboard.png" alt="Weather dashboard web page" class="responsive-img"/></a>
+                        <span><a href="https://github.com/florhaidee/weather-dashboard" target="_blank">Github Repository</a></span>
+                    </div>
+                    <div class="carousel-item"> 
+                        <a href="https://florhaidee.github.io/work-day-scheduler/" target="_blank">   
+                        <h6>Work Day Scheduler</h6>
+                        <img src="./assets/images/work-day-scheduler.PNG" alt="Work day scheduler web page" class="responsive-img"/></a>
+                        <span><a href="https://github.com/florhaidee/work-day-scheduler" target="_blank">Github Repository</a></span>
+                    </div>                    
+                </div>
+            </section>
+        </main>
         <!-- Contact me Section-->
-        <section id="contact" class='hoverable'>
-            <div class="subtitle">
-                <h2>Contact Me</h2>
+        <footer id="contact" class='page-footer teal darken-2 z-depth-4'>
+            <div class="footer-subtitle hide-on-small-only">
+                <h4>Contact Me</h4>
             </div>
-            <div class="content">
-                <ul>
-                    <li>
-                        <p> Phone: (786)332-7155</p>
-                    </li>
-                    <li>
-                        <address> Email: <a href="mailto:florhaideedev@gmail.com">florhaideeDev@gmail.com</a></address>
-                    </li>
-                    <li>
-                        <a href="https://github.com/florhaidee"  target="_blank">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/florhaidee/" target="_blank">LinkedIn</a>
-                    </li>
-                </ul>
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col s3"><p> Phone: (786)332-7155</p></div>
+                    <div class="col s5"><address> Email: <a href="mailto:florhaideedev@gmail.com">florhaideeDev@gmail.com</a></address></div>
+                    <div class="col s2"><a href="https://github.com/florhaidee"  target="_blank">Github</a></div>
+                    <div class="col s2"><a href="https://www.linkedin.com/in/florhaidee/" target="_blank">LinkedIn</a></div>
+                </div>
             </div>
-        </section> 
+        </footer> 
         <!-- Resume Section-->
         <section id="resume">
+            <div id="modal-print" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <h4>Print Resume</h4>
+                  <iframe id="pdf-iframe" src="./assets/keyboard-shortcuts-windows VS CODE.pdf"></iframe>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Print</a>
+                </div>
+            </div>
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
