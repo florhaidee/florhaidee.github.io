@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>florhaidee</title>
     </head>
@@ -16,11 +17,11 @@
                         <a class="brand-logo" href="#">Florhaidee</a>
                     </div>
                     <div class="col s12">
-                        <ul id="nav-mobile" class="right">
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
                             <li> <a href="#about-me">About Me</a> </li>
                             <li> <a href="#work">My Work</a> </li>
                             <li> <a href="#contact">Contact Me</a> </li>
-                            <li> <a class="modal-trigger" href="#modal-print">My Resume</a> </li>
+                           <!--<li> <a href="#modal-print" class="modal-trigger">My Resume</a> </li>--> 
                         </ul>
                     </div>
                 </div>
@@ -53,7 +54,9 @@
                 <div class="subtitle hide-on-small-only">
                     <h2>My Work</h2>
                 </div>
-                <div class="content carousel">
+                <div class="content carousel">  
+                    <!-- <p class="content">These are my latest works: click over it to check it out!!</br>
+                        Or click over Github repository to go to their repository page!!</p>   _-->             
                     <div class="carousel-item" style="transform: translateY(10px);">
                         <a href="https://florhaidee.github.io/just-breathe/" target="_blank">   
                         <h6>Just Breathe</h6>
@@ -77,21 +80,21 @@
                         <h6>Work Day Scheduler</h6>
                         <img src="./assets/images/work-day-scheduler.PNG" alt="Work day scheduler web page" class="responsive-img"/></a>
                         <span><a href="https://github.com/florhaidee/work-day-scheduler" target="_blank">Github Repository</a></span>
-                    </div>                    
+                    </div>        
                 </div>
             </section>
         </main>
         <!-- Contact me Section-->
         <footer id="contact" class='page-footer teal darken-2 z-depth-4'>
-            <div class="footer-subtitle hide-on-small-only">
+            <div class="subtitle hide-on-small-only">
                 <h4>Contact Me</h4>
             </div>
-            <div class="footer-content">
+            <div class="content footer-content valign-wrapper">
                 <div class="row">
-                    <div class="col s3"><p> Phone: (786)332-7155</p></div>
-                    <div class="col s5"><address> Email: <a href="mailto:florhaideedev@gmail.com">florhaideeDev@gmail.com</a></address></div>
-                    <div class="col s2"><a href="https://github.com/florhaidee"  target="_blank">Github</a></div>
-                    <div class="col s2"><a href="https://www.linkedin.com/in/florhaidee/" target="_blank">LinkedIn</a></div>
+                    <div class="col s6 l3"><p> Phone:</br> (786)332-7155</p></div>
+                    <div class="col s6 l5"><address> Email: <a href="mailto:florhaideedev@gmail.com">florhaideeDev@gmail.com</a></address></div>
+                    <div class="col s6 l2"><a href="https://github.com/florhaidee"  target="_blank">Github</a></div>
+                    <div class="col s6 l2"><a href="https://www.linkedin.com/in/florhaidee/" target="_blank">LinkedIn</a></div>
                 </div>
             </div>
         </footer> 
@@ -103,7 +106,7 @@
                   <iframe id="pdf-iframe" src="./assets/keyboard-shortcuts-windows VS CODE.pdf"></iframe>
                 </div>
                 <div class="modal-footer">
-                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Print</a>
+                  <a href="#!" class="modal-close waves-effect waves-teal btn-flat">Print</a>
                 </div>
             </div>
         </section>

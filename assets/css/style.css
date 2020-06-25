@@ -4,6 +4,7 @@
     --tertiary-color: white;
     /*teal lighten-5* -- teal darken-2 */
 }    
+/* font-family: 'Berkshire Swash', cursive;*/
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ header li a {
 }
 nav .brand-logo{
     padding-left: 0.5rem;
+    font-family: 'Berkshire Swash', cursive;
 }
 .content ul li {
     font-size: 2.5vw;
@@ -46,6 +48,9 @@ nav .brand-logo{
     border-radius: 15%;
     border: 5px solid rgba(88, 152, 170, 0.1);
 }
+.hero h4 {
+    font-family: 'Berkshire Swash', cursive;
+}
 #about-me, #work, #contact {
     display: flex;
     padding: 10px;    
@@ -57,6 +62,7 @@ nav .brand-logo{
     width: 35%;
     padding-right: 10px;
     font-size: 45px;
+    font-family: 'Berkshire Swash', cursive;
 }
 .content{
     width: 65%;
@@ -74,19 +80,17 @@ nav .brand-logo{
     height: 15rem;
     background-size: cover;
 }
-.carousel-item {
-    transform: translateY(10px)
+.carousel {
+    margin-bottom: 10%;
 }
+
 /* Contact me style */ 
-.footer-subtitle{
-    display: flex;
-    border-right: 3px solid;
-    width: 35%;
-    padding-right: 10px;
-    font-size: 1.rem;
-}
 .footer-content {
-    margin: 0 10%;
-    width: 65%;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    align-items: flex-end;
 }
+.footer-content .row{
+    margin-bottom: .8rem;
+    width: 100%;
+}
+
